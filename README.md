@@ -27,7 +27,7 @@ Privilege Escalation: Cron abuse + sudo misconfiguration
 
 ⚙️ Installation & Setup
 
-git clone https://github.com/<your-username>/Docker-Lab.git
-cd Docker-Lab
+git https://github.com/Rishi-Prakash1/WebEploitation-Lab.git
+cd Lab
 docker build -t vuln-lab .
 docker run -d -p 80:80 -p 22:22 --name lab1 vuln-lab </pre>
